@@ -9,6 +9,13 @@ thiserror = "1.0.61"
 
 [package]
 name = "reflectix"
+description = "Primitive run-time type reflection for Rust"
+documentation = "https://docs.rs/reflectix"
+repository = "https://github.com/abusers-inc/reflectix"
+homepage = "https://github.com/abusers-inc/reflectix"
+license = "GPL-3.0-or-later"
+categories = ["data-structures", "rust-patterns" ]
+authors = ["hdbg"]
 version = "0.1.0"
 edition = "2021"
 
