@@ -1,0 +1,17 @@
+[workspace]
+members = [
+  "reflectix-core",
+  "reflectix-macros"
+]
+
+[workspace.dependencies]
+thiserror = "1.0.61"
+
+[package]
+name = "reflectix"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+reflectix-core = {path = "./reflectix-core"}
+reflectix-macros = {path = "./reflectix-macros"}
