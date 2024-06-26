@@ -20,5 +20,5 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-reflectix-core = {path = "./reflectix-core"}
-reflectix-macros = {path = "./reflectix-macros"}
+reflectix-core = {path = "./reflectix-core", version = "0.1.0"}
+reflectix-macros = {path = "./reflectix-macros", version = "0.1.0"}
